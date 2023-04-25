@@ -8,10 +8,10 @@ export default function home(){
             
             <Navbar li={[
         ["Dashboard", "img/dashboard.svg"],
-        ["Brendan’s Victims", "img/restaurant.svg"],
-        ["Brendan's Dick pics (all angles included)", "img/manage user.svg"],
-        ["Brendan's favorite movie", "img/manage order.svg"],
-        ["Brendan's penis stats", "img/manage coupon.svg"]
+        ["Brendan’s Victims", ""],
+        ["Brendan's Dick pics", ""],
+        ["Brendan's N pass ", ""],
+        ["Brendan's penis stats", ""]
       ]}
     />
     <Time />
