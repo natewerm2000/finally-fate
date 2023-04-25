@@ -1,16 +1,21 @@
 import React from "react";
 import Navbar from "./page_components/VerticalNav.js"
+import Time from "./page_components/Time.js";
 export default function home(){
     return(
         <div >
+            
+            
             <Navbar li={[
         ["Dashboard", "img/dashboard.svg"],
-        ["Restautant’s", "img/restaurant.svg"],
-        ["Manage User’s", "img/manage user.svg"],
-        ["Manage Order’s", "img/manage order.svg"],
-        ["Manage Coupon’s", "img/manage coupon.svg"]
+        ["Brendan’s Victims", "img/restaurant.svg"],
+        ["Brendan's Dick pics (all angles included)", "img/manage user.svg"],
+        ["Brendan's favorite movie", "img/manage order.svg"],
+        ["Brendan's penis stats", "img/manage coupon.svg"]
       ]}
     />
+    <Time />
+    
         </div>
     )
 }
