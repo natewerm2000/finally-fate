@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/Shop.css'
-export default function home(){
+export default function shop(){
    
     
     return(
