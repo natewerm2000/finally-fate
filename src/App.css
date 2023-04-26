@@ -3,7 +3,11 @@ body {
   margin: 0;
   height: 100vh;
   font-weight: 100;
-  background: radial-gradient(#a23939,#1f1013);
+  background-image: url('./images/ffbg.gif');
+  height: 100vh;
+  padding:0;
+  
+  background-size: cover;
   -webkit-overflow-Y: hidden;
   -moz-overflow-Y: hidden;
   -o-overflow-Y: hidden;
@@ -24,9 +28,9 @@ width: 250px;
 height: 50px;
 font-size: 2em;
 border-radius: 5px;
-opacity: .5;
-top: 60vh;
-bottom: 0px;
+opacity: .7;
+
+bottom: 10vh;
 left: 0px;
 right: 0px;
 margin: auto;

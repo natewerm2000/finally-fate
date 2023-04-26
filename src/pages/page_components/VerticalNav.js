@@ -35,9 +35,10 @@ const VerticalNav = ({ li }) => {
             <li
               className="navbar__li"
               style={{ display: window === false ? "inline-block" : "none" }}
-            >
+            ><a href = {item[2]} >
               
               {item[0]}
+              </a>
             </li>
           </div>
         ))}

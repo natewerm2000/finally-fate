@@ -3,6 +3,7 @@ $backgroundColor: rgba(9, 8, 8, 0.401);
 $textcolor:whitesmoke;
 $borderLeftColor:#ff0000;
 
+
 .navbar-menu {
   height:100vh;
   background-color:$backgroundColor;
@@ -14,6 +15,7 @@ $borderLeftColor:#ff0000;
 .burger{
   display:flex;
   justify-content: flex-end;
+  
 }
 .burger img {
   padding: 25px 8px 0px 0px;
@@ -32,6 +34,7 @@ $borderLeftColor:#ff0000;
   letter-spacing: 0px;
   line-height: 38px;
   color: $textcolor;
+  
 
 }
 .navbar__li-box:first-child {
@@ -41,8 +44,10 @@ $borderLeftColor:#ff0000;
 .navbar__li-box {
   height: 43px;
   margin-top:15px;
+  
 }
 .navbar__li-box:hover {
   border-left: 7px solid $borderLeftColor;
   cursor: pointer;
+  
 }
