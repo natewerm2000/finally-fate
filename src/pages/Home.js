@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./page_components/VerticalNav.js"
 import Time from "./page_components/Time.js";
 export default function home(){
+    
     return(
         <div >
             
@@ -15,12 +16,11 @@ export default function home(){
     
     <Time />
     
-        <p id='head1' class='header'>Finally Fate</p>
-<p id='head2' class='header'>Finally here</p>
-<p id='head3' class='header'>For you</p>
-<p id='head4' class='header'>all of your needs</p>
-<p id='head5' class='header'>beautifully crafted</p>
-    
+        <p id='head1' class='header'>Sully Cuts is now expanding</p>
+<p id='head2' class='header'>Once delivering fresh cuts..</p>
+<p id='head3' class='header'>Now to delivering fresh fits</p>
+<p id='head4' class='header'>Your go to apparel is here</p>
+<p id='head5' class='header'>Finally Fate</p>
    
 <button>Shop</button>
     <div class='light x1'></div>
