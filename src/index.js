@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './style/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet"></link>

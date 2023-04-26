@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
 //<img src={logo} className="App-logo" alt="logo" />3
-import './App.css';
+import './style/App.css';
 import Home from './pages/Home';
-import Shop from './pages/Home';
+import Shop from './pages/Shop';
 import Contact from './pages/Contact';
 import Navbar from './pages/page_components/VerticalNav';
 import Time from './pages/page_components/Time';

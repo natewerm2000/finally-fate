@@ -9,7 +9,7 @@ $borderLeftColor:#ff0000;
   background-color:$backgroundColor;
   box-shadow: 1px 1px 7px rgba(0,0,0,0.15);
   transition: all 0.5s ease;
-  
+  z-index: 12;
   
 }
 .burger{

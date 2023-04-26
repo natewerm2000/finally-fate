@@ -1,86 +1,21 @@
 
-body {
-  margin: 0;
-  height: 100vh;
-  font-weight: 100;
-  background-image: url('./images/ffbg.gif');
-  height: 100vh;
+
+.shopPage {
+  z-index: -2;
+  background: radial-gradient(#a23982,#1f1013);
+  position:fixed;
   padding:0;
-  
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  -webkit-overflow-Y: hidden;
-  -moz-overflow-Y: hidden;
-  -o-overflow-Y: hidden;
-  overflow-y: hidden;
-  -webkit-animation: fadeIn 1 1s ease-out;
-  -moz-animation: fadeIn 1 1s ease-out;
-  -o-animation: fadeIn 1 1s ease-out;
-  animation: fadeIn 1 1s ease-out;
-}
-
-.shop{
-position: absolute;
-border: 2px solid white;
-background: transparent;
-font-family: 'Roboto', sans-serif;
-color: white;
-width: 250px;
-height: 50px;
-font-size: 2em;
-border-radius: 5px;
-opacity: .7;
-bottom: 10vh;
-left: 0px;
-right: 0px;
-margin: auto;
-transition: .3s;
-}
-.huge{
-  color: black;
-}
-.popupEmail{
-position: absolute;
-border: 2px solid white;
-background: transparent;
-font-family: 'Roboto', sans-serif;
-color: white;
-width: 250px;
-height: 50px;
-font-size: 2em;
-border-radius: 5px;
-opacity: .7;
-top: 10vh;
-left: 0px;
-right: 30vh;
-margin: auto;
-transition: .3s;
-}
-.popupNum{
-  position: absolute;
-  border: 2px solid white;
-  background: transparent;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  width: 250px;
-  height: 50px;
-  font-size: 2em;
-  border-radius: 5px;
-  opacity: .7;
-  top: 5vh;
-  left: 0px;
-  right: 30vh;
-  margin: auto;
-  transition: .3s;
-  }
-
-button:hover{
-border: 2px solid #104F55;
-background-color: rgba(365,365,365,0.5);
-cursor: pointer;
-color: #104F55;
-opacity: .8;
-transition: .3s;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .light {
@@ -405,12 +340,3 @@ position: fixed;
 transform: translate(95vw,90vh);
 transform: translate(95vw,90vh);
 }
-.time { 
-  position: absolute; 
-  top: 10px; 
-  right: 10px;
-  color:white; 
-} 
-
-
-
