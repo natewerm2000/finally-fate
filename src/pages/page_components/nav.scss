@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-$backgroundColor: rgba(223, 7, 7, 0.401);
-$textcolor:#000000;
+$backgroundColor: rgba(9, 8, 8, 0.401);
+$textcolor:whitesmoke;
 $borderLeftColor:#ff0000;
 
 .navbar-menu {
@@ -8,6 +8,7 @@ $borderLeftColor:#ff0000;
   background-color:$backgroundColor;
   box-shadow: 1px 1px 7px rgba(0,0,0,0.15);
   transition: all 0.5s ease;
+  
   
 }
 .burger{
