@@ -24,7 +24,7 @@ const VerticalNav = ({ li }) => {
         
         {li.map((item, i) => (
           <div className="navbar__li-box" key={i}>
-            
+            <a href = {item[2]} >
             <img
             
               src={item[1]}
@@ -35,11 +35,12 @@ const VerticalNav = ({ li }) => {
             <li
               className="navbar__li"
               style={{ display: window === false ? "inline-block" : "none" }}
-            ><a href = {item[2]} >
+            >
               
               {item[0]}
-              </a>
+              
             </li>
+            </a>
           </div>
         ))}
       </ul>

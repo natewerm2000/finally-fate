@@ -1,6 +1,6 @@
 
 .home {
-z-index: 0;
+z-index: -1;
   background-image: url('../images/ffbg.gif');
   position:fixed;
   padding:0;

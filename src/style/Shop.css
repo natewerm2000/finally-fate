@@ -2,7 +2,7 @@
 
 .shopPage {
   z-index: -2;
-  background: radial-gradient(#a23982,#1f1013);
+  background: radial-gradient(#000000,#30050e);
   position:fixed;
   padding:0;
   margin:0;
@@ -22,7 +22,7 @@
   position: absolute;
   width: 0px;
   opacity: .75;
-  background-color: white;
+  background-color: black;
   box-shadow: #e9f1f1 0px 0px 20px 2px;
   opacity: 0;
   top: 100vh;
