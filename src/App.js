@@ -3,7 +3,7 @@
 import './App.css';
 import Home from './pages/Home';
 import Shop from './pages/Home';
-import Contact from './pages/Home';
+import Contact from './pages/Contact';
 import Navbar from './pages/page_components/VerticalNav';
 import Time from './pages/page_components/Time';
 
