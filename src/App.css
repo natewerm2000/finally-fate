@@ -207,6 +207,16 @@ font-weight: 200;
 color: white;
 font-size: 2em;
 }
+.header2{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 3em;
+  }
 
 #head1, #head2,#head3, #head4, #head5{
 opacity: 0;
@@ -253,6 +263,7 @@ animation-delay: 17s;
 }
 
 #head5{
+
 -webkit-animation: finalFade 1 5s ease-in;
 -moz-animation: finalFade 1 5s ease-in;
 -o-animation: finalFade 1 5s ease-in;
@@ -266,6 +277,7 @@ animation-fill-mode: forwards;
 -o-animation-delay: 22s;
 animation-delay: 22s;
 }
+
 
 @-webkit-keyframes fadeIn{
 from{opacity: 0;}

@@ -20,7 +20,7 @@ export default function home(){
 <p id='head2' class='header'>Once delivering fresh cuts..</p>
 <p id='head3' class='header'>Now to delivering fresh fits</p>
 <p id='head4' class='header'>Your go to apparel is here</p>
-<p id='head5' class='header'>Finally Fate</p>
+<p id='head5' class='header2'>Finally Fate™</p>
    
 <button>Shop</button>
     <div class='light x1'></div>
